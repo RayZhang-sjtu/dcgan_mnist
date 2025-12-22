@@ -1,9 +1,72 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 .pytest_cache/
-.DS_Store
+.coverage
+htmlcov/
+
+# IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
+.cursor/
 
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
 
+# 数据文件（通常很大，不提交）
+data/MNIST/
+
+# 模型权重（通常很大，不提交到GitHub）
+# 如果需要提交权重文件，可以注释掉下面两行
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# 但如果weights目录下有final模型需要跟踪，可以取消注释：
+# !weights/generator_final.pth
+# !weights/discriminator_final.pth
+
+# 日志和输出（保留结构，但忽略内容）
+logs/*
+!logs/.gitkeep
+generated_images/*
+!generated_images/.gitkeep
+saved_models/*
+!saved_models/.gitkeep
+
+# TensorBoard
+runs/
+*.tfevents.*
+
+# 训练输出日志
+*.log
+training_output_*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 临时文件和备份
+*.bak
+*.tmp
+*~
+
+# 环境变量文件
+.env
+.env.local
