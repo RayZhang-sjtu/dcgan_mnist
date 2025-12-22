@@ -468,8 +468,7 @@ Conv2d(256 → 1, 4×4, stride=1) + Sigmoid                    →  1×1
 
 如有问题或建议，欢迎：
 - 提交 [Issue](https://github.com/yourusername/dcgan_mnist/issues)
-- 发送邮件至：your.email@example.com
-
+- 发送邮件至：zhang_rongcheng@sjtu.edu.cn
 ---
 
 **⭐ 如果这个项目对你有帮助，请给个Star支持一下！**
